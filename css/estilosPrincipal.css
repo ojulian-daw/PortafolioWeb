@@ -1,0 +1,88 @@
+@import "variables.css";
+
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* principal */
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+    min-height: 100vh;
+    color: var(--blancoLetra);
+    position: relative;
+    line-height: 1.6;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--fondoPrincipal);
+    z-index: -1;
+}
+
+/* zona header */
+header{
+    padding: 1.5rem 2rem;
+    background: var(--fondoHF);
+    border-bottom: 1px solid rgba(255,255,255,0.12);
+}
+.contenidoHeader{
+    width: min(var(--anchoContenido), 92%);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+/* titlo h1 */
+.titulo{
+    color: var(--blancoTitulo);
+    margin-bottom: 0.45rem;
+    letter-spacing: 1px;
+    text-shadow: var(--sombraTitulo);
+    font-size: var(--tamanoTitulo);
+    line-height: 1.1;
+}
+.menuPrincipal ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: flex-end;
+    font-size: 1.1rem;
+}
+.enlace{
+    color: rgb(230, 235, 255);
+    padding: 0.4rem 0.6rem;
+    border-radius: 12px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    font-size: var(--tamanoEnlace);
+}
+.enlace:hover, .enlace:focus-visible{
+    text-shadow: 0 0 10px rgba(255,255,255,0.45);
+    background: rgba(0, 0, 0, 0.18);
+}
+main{
+    margin-top: 12px;
+}
+/* zona footer */
+footer{
+    font-size: var(--tamanoFooter);
+    margin-top: 3rem;
+    text-align: center;
+    padding: 1.4rem 2.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid rgba(255,255,255,0.12);
+    background: var(--fondoHF);
+}

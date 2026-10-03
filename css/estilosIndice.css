@@ -1,0 +1,88 @@
+@import "variables.css";
+
+.presentacion{
+    width: min(var(--anchoContenido), 92%);
+    min-height: 70vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenidoPresentacion{
+    max-width: 850px;
+}
+.etiquetaPresentacion{
+    margin-bottom: 1.05rem;
+    color: var(--enlaceLetraH);
+    font-size: 0.95rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.presentacion h2{
+    max-width: 850px;
+    margin-bottom: var(--espaciado1);
+    color: var(--blancoLetra);
+    font-size: clamp(2.7rem, 7vw, 5.5rem);
+    line-height: 1;
+    letter-spacing: -2px;
+}
+.descripcionPresentacion{
+    max-width: 650px;
+    color: var(--enlaceLetra);
+    font-size: 1.2rem;
+    line-height: 1.7;
+}
+/* presentar proyectos */
+.enlacePresentacion{
+    margin-top: 2.8rem;
+}
+.enlacePresentacion a{
+    display: inline-flex;
+    align-items: center;
+    gap: 1.2rem;
+    color: var(--blancoLetra);
+    text-decoration: none;
+    font-size: var(--tamanoFooter);
+    letter-spacing: 1px;
+    transition: all 0.2s ease;
+}
+.enlacePresentacion a span:first-child{
+    color: var(--enlaceLetraH);
+    font-size: 0.8rem;
+}
+.enlacePresentacion a span:last-child{
+    font-size: var(--espaciado1);
+}
+.enlacePresentacion a:hover{
+    color: var(--enlaceLetraH);
+    gap: 1.6rem;
+}
+/* apartado de tecnologias */
+.tecnologias{
+    width: min(var(--anchoContenido), 92%);
+    min-height: 60vh;
+    margin: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.informacionTecnica > p{
+    margin-bottom: var(--espaciado1);
+    color: var(--enlaceLetraH);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.informacionTecnica ul{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem var(--espaciado1);
+}
+.informacionTecnica li{
+    color: var(--enlaceLetra);
+    font-size: 1.1rem;
+}

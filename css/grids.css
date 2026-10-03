@@ -1,0 +1,42 @@
+@import "variables.css";
+
+.rc{
+    width: min(var(--anchoContenido), 92%);
+    margin: auto;
+}
+/* la zona de arriba de las tarjetas */
+.rc h2{
+    color: var(--blancoLetra);
+    font-size: clamp(2rem, 4vw, 2.8rem);
+    line-height: 1.1;
+    margin-top: 0.4rem;
+    margin-bottom: 0.5rem;
+}
+.textoHabilidades{
+    max-width: 840px;
+    color: var(--enlaceLetra);
+    font-size: var(--tamanoFooter);
+    line-height: 1.6;
+}
+/* zona de tarjetas */
+.repartoTarjetas{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.4rem;
+    margin-top: 4rem;
+}
+.tarjeta{
+    min-width: 0;
+    box-sizing: border-box;
+    padding: 1.6rem;
+    border-radius: 16px;
+    background-color: var(--fondoTarjeta);
+    border: var(--bordeTarjeta);
+    transition: all 0.3s ease;
+    text-align: center;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.08), 0 12px 30px rgba(0,0,0,0.18);
+}
+.tarjeta:hover{
+    transform: translateY(-6px);
+    background-color: rgba(15,15,50,0.6);
+}

@@ -1,0 +1,22 @@
+:root{
+    /* colores */
+    --blancoLetra: rgb(255, 255, 255);
+    --enlaceLetra: rgb(230, 235, 255);
+    --enlaceLetraH: rgb(155, 235, 255);
+    --blancoTitulo: rgb(255, 230, 180);
+    --fondoHF: rgba(255, 255, 255, 0.09);
+    /* tamaños */
+    --tamanoTitulo: 2.85rem;
+    --tamanoFooter: 1.05rem;
+    --tamanoEnlace: 1.15rem;
+
+    --espaciado1: 1.5rem;
+
+    --anchoContenido: 1200px;
+
+    --sombraTitulo: 0 2px 8px rgba(0,0,0,0.25);
+    --fondoPrincipal: linear-gradient(90deg, rgb(29, 63, 253) 13%, rgb(148, 69, 252) 100%);
+
+    --bordeTarjeta: 1px solid rgba(250, 250, 250, 0.1);
+    --fondoTarjeta: rgba(12, 20, 50, 0.5);
+}
