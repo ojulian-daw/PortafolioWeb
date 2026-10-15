@@ -26,16 +26,34 @@
     max-width: 700px;
 }
 /* imágenes */
-.imagenMuestra{
+.imgDemo{
     width: 80%;
-    max-width: 420px;
     height: auto;
     cursor: none;
     border-radius: 12px;
+}
+.imagenMuestra{
+    max-width: 420px;
     transition: transform 0.2s ease;
 }
 .imagenMuestra:hover{
     transform: translateX(12px);
+}
+/* imágenes sección 2*/
+.imagenMuestra2{
+    max-width: 610px;
+    transition: transform 0.4s ease;
+}
+.imagenMuestra2:hover{
+    transform: scale(1.1);
+}
+/* separador */
+hr{
+    border: none;
+    background-color: rgb(30, 30, 30);
+    height: 4px;
+    width: 85%;
+    margin: auto;
 }
 @media (min-width: 701px){
     .infoProyectos p{
