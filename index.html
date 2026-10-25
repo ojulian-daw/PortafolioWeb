@@ -20,27 +20,27 @@
     <header>
         <div class="contenidoHeader">
             <div class="zonaHeader">
-                <h1 class="titulo">Mi portafolio</h1>
-                <small>Desarrollador web</small>
+                <h1 class="titulo" id="tituloH1">Mi portafolio</h1>
+                <small id="smallHeader">Desarrollador web</small>
             </div>
             <div class="zonaHeader">
                 <nav class="menuPrincipal">
                     <ul>
-                        <li><a href="paginas/portafolioProyectos.html" class="enlace">Proyectos</a></li>
-                        <li><a href="paginas/portafolioHabilidades.html" class="enlace">Habilidades</a></li>
+                        <li><a href="paginas/portafolioProyectos.html" class="enlace" id="enlace1">Proyectos</a></li>
+                        <li><a href="paginas/portafolioHabilidades.html" class="enlace" id="enlace2">Habilidades</a></li>
+                        <li><button id="btnTra">Traducir</button></li>
                     </ul>
                 </nav>
             </div>
         </div>
-        <div class="burbujas" id="burbujas"></div>
     </header>
     <main>
         <section class="presentacion">
             <div class="contenidoPresentacion">
-                <p class="etiquetaPresentacion">
+                <p class="etiquetaPresentacion" id="parraf1">
                     Desarrollo Web
                 </p>
-                <h2>
+                <h2 id="tituloH2">
                     Desarrollo sitios y aplicaciones web con código propio y atención al detalle.
                 </h2>
                 <p class="descripcionPresentacion" id="auto">
@@ -50,14 +50,14 @@
             <div class="enlacePresentacion">
                 <a href="paginas/portafolioProyectos.html">
                     <span>01</span>
-                    <span>Ver proyectos</span>
+                    <span id="span1">Ver proyectos</span>
                     <span>-></span>
                 </a>
             </div>
         </section>
         <section class="tecnologias">
             <div class="informacionTecnica">
-                <p>TECNOLOGÍAS</p>
+                <p id="pTitle1">TECNOLOGÍAS</p>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -68,6 +68,16 @@
                 </ul>
             </div>
             <!-- futuro contenido visual -->
+        </section>
+        <section class="tecnologias">
+            <div class="informacionTecnica">
+                <p id="pTitle2">PROYECTOS</p>
+                <ul>
+                    <li id="list1">Juegos Web (con Phaser 3)</li>
+                    <li id="list2">Prueba de gestor de gastos con PHP y SQL</li>
+                    <li id="list3">Prueba de gestor de usuarios con PHP y SQL</li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer>
@@ -84,5 +94,6 @@
             <span>demo</span>
         </div>
     </footer>
+    <script src="script/traductor.js"></script>
 </body>
 </html>

@@ -12,14 +12,15 @@
     <header>
         <div class="contenidoHeader">
             <div class="zonaHeader">
-                <h1>Mi portafolio</h1>
-                <small>demo</small>
+                <h1 id="h1Proj">Mi portafolio</h1>
+                <small id="smaProj">demo</small>
             </div>
             <div class="zonaHeader">
                 <nav class="menuPrincipal">
                     <ul>
-                        <li><a href="../index.html" class="enlace">Inicio</a></li>
-                        <li><a href="portafolioHabilidades.html" class="enlace">Habilidades</a></li>
+                        <li><a href="../index.html" class="enlace" id="iniProj">Inicio</a></li>
+                        <li><a href="portafolioHabilidades.html" class="enlace" id="habProj">Habilidades</a></li>
+                        <li><button id="btnTraP">Traducir</button></li>
                     </ul>
                 </nav>
             </div>
@@ -27,14 +28,14 @@
     </header>
     <main class="rc">
         <section class="sectionProyectos">
-            <h2>Juegos JavaScript con Phaser 3</h2>
+            <h2 id="h2Proj">Juegos JavaScript con Phaser 3</h2>
             <article class="infoProyectos">
                 <div>
-                    <h3>Juego de la cucaracha</h3>
-                    <p>
+                    <h3 id="cuProj">Juego de la cucaracha</h3>
+                    <p id="textCu">
                         Juego creado con JavaScript y con el framework de Phaser 3.<br>
-                        Es un juego hecho para mejorar mis conocimientos de programación con uso de de un framework para ayudarme a manejar las escenas y las colisiones de los elementos de los canvas.<br>
-                        El juego trata de una cucaracha que tiene que ir comiendo alimento para crecer y esquivar a los insectos mas grandes que ella, a medidad que va creciendo podrá comerse a otros personajes que van apareciendo por la pantalla.
+                        Es un juego hecho para mejorar mis conocimientos de programación mediante el uso de un framework para ayudarme a manejar las escenas y las colisiones entre los elementos del canvas.<br>
+                        El juego trata de una cucaracha que tiene que ir comiendo alimento para crecer y esquivar a los insectos más grandes que ella, a medida que va creciendo podrá comerse a otros personajes que van apareciendo por la pantalla.
                     </p>
                 </div>
                 <div>
@@ -43,10 +44,10 @@
             </article>
             <article class="infoProyectos">
                 <div>
-                    <h3>Juego del caos</h3>
-                    <p>
-                        Juego creado también con el framework de Phaser 3. Hecho para seguir mejorando mi nivel de programación con JavaScript y el uso de escenas y control de niveles.<br>
-                        El juego consiste en un dinosaurio que debe destruir todo lo que hay a su paso y defenderse de las fuerzas militares que intentan detenerle.
+                    <h3 id="caProj">Juego del caos</h3>
+                    <p id="textCa">
+                        Juego creado también con el framework Phaser 3. Hecho para seguir mejorando mi nivel de programación con JavaScript y el uso de escenas y el control de niveles.<br>
+                        El juego consiste en un dinosaurio que debe destruir todo lo que encuentra a su paso y defenderse de las fuerzas militares que intentan detenerlo.
                     </p>
                 </div>
                 <div>
@@ -56,43 +57,44 @@
         </section>
         <hr>
         <section class="sectionProyectos">
-            <h2>Prácticas con PHP y SQL</h2>
-            <span>Ejercicio de gestor de gastos</span>
-            <article>
+            <h2 id="pracProj">Prácticas con PHP y SQL</h2>
+            <span id="pracSpan1">Ejercicio de gestor de gastos</span>
+            <article class="infoProyectos2">
                 <div class="contenedorTexto">
-                    <p>
-                        Este ejercicio realizo con PHP y SQL sirvio para mejorar mis conociminetos y nivel de programación en la parte de backend. 
+                    <p id="practext1">
+                        Este ejercicio realizo con PHP y SQL sirvio para mejorar mis conociminetos y nivel de programación en la parte de backend.
                     </p>
                 </div>
                 <div class="imagenGaleria">
                     <img src="../images/img-gastos1.webp" alt="ejercicio PHP gastos" loading="lazy" class="imgDemo imagenMuestra2">
                 </div>
             </article>
-            <article>
+            <article class="infoProyectos2">
                 <div class="contenedorTexto">
-                    <p>
-                        Puedes insertar el gasto o el tipo según su ingreso mediante un formulario básico HTML, el servidor comprobara que los datos introducidos seán validos para la base de datos.
+                    <p id="practext2">
+                        Puedes insertar el gasto o el tipo de ingreso mediante un formulario básico en HTML. El servidor comprobará que los datos introducidos sean válidos para la base de datos.
                     </p>
                 </div>
                 <div class="imagenGaleria">
                     <img src="../images/img-gastos3.webp" alt="ejercicio PHP gastos" loading="lazy" class="imgDemo imagenMuestra2">
                 </div>
             </article>
-            <article>
+            <article class="infoProyectos2">
                 <div class="contenedorTexto">
-                    <p>
-                        Aquí puedes ver un gráfico de la suma de los gastos o ingresos realizos en el año que se haya seleccionado.
+                    <p id="practext3">
+                        Aquí puedes ver un gráfico con la suma de los gastos o ingresos realizados durante el año que se haya seleccionado.
                     </p>
                 </div>
                 <div class="imagenGaleria">
                     <img src="../images/img-gastos2.webp" alt="ejercicio PHP gastos" loading="lazy" class="imgDemo imagenMuestra2">
                 </div>
             </article>
-            <article>
+            <article class="infoProyectos2">
                 <div class="contenedorTexto">
-                    <p>
-                        Para prácticar y saber realizar cosas que podrían necesitarse en una aplicación real he hecho funcionalidades 
-                        para exportar los datos de la base de datos ha foramtos JSON y CSV para poder realizar migraciones con la mayor fácilidad possible.                    </p>
+                    <p id="practext4">
+                        Para practicar y saber realizar cosas que podrían necesitarse en una aplicación real he hecho funcionalidades 
+                        para exportar los datos de la base de datos a formatos JSON y CSV para poder realizar migraciones con la mayor facilidad posible.
+                    </p>
                 </div>
                 <div class="imagenGaleria">
                     <img src="../images/img-gastos4.webp" alt="ejercicio PHP gastos" loading="lazy" class="imgDemo imagenMuestra2">
@@ -101,41 +103,42 @@
         </section>
         <hr>
         <section class="sectionProyectos">
-            <span>Ejercicio control de usuarios con PHP y SQL</span>
-            <article>
+            <span id="pracSpan2">Ejercicio control de usuarios con PHP y SQL</span>
+            <article class="infoProyectos2">
                 <div class="contenedorTexto">
-                    <p>
-                        Ejercicio creado con PHP, SQL y Bootsrap para la interfície. Hecho como si fuera un simulacro de una aplicación web de gestión real. 
+                    <p id="usuText1">
+                        Ejercicio creado con PHP, SQL y Bootstrap para la interfaz. Hecho como si fuera un simulacro de una aplicación web de gestión real.
                     </p>
                 </div>
                 <div class="imagenGaleria">
                     <img src="../images/img-practica1.webp" alt="ejercicio backend usuarios" loading="lazy" class="imgDemo imagenMuestra2">
                 </div>
             </article>
-            <article>
+            <article class="infoProyectos2">
                 <div class="contenedorTexto">
-                    <p>
-                        Hice que el cliente pudiera hacer peticiones y consultar el estad de ellas.
+                    <p id="usuText2">
+                        Hice que el cliente pudiera realizar peticiones y consultar su estado.
                     </p>
                 </div>
                 <div class="imagenGaleria">
                     <img src="../images/img-practica2.webp" alt="ejercicio backend usuarios" loading="lazy" class="imgDemo imagenMuestra2">
                 </div>
             </article>
-            <article>
+            <article class="infoProyectos2">
                 <div class="contenedorTexto">
-                    <p>
-                        El ususario puede indicar el tipo, la localidad, y poner un texto descriptivo.
+                    <p id="usuText3">
+                        El usuario puede indicar el tipo, la localidad y añadir un texto descriptivo.
                     </p>
                 </div>
                 <div class="imagenGaleria">
                     <img src="../images/img-practica3.webp" alt="ejercicio backend usuarios" loading="lazy" class="imgDemo imagenMuestra2">
                 </div>
             </article>
-            <article>
+            <article class="infoProyectos2">
                 <div class="contenedorTexto">
-                    <p>
-                        Aquí en la imagen como puedes observar el usuario puede ver su perfil con claridad, editarlo para adaptarlo a su necesidad y configurar la cuenta.                    </p>
+                    <p id="usuText4">
+                        Como puedes observar en la imagen el usuario puede ver su perfil con claridad, editarlo para adaptarlo a sus necesidades y configurar la cuenta.
+                    </p>
                 </div>
                 <div class="imagenGaleria">
                     <img src="../images/img-practica4.webp" alt="ejercicio backend usuarios" loading="lazy" class="imgDemo imagenMuestra2">
@@ -157,5 +160,6 @@
             <span>demo</span>
         </div>
     </footer>
+    <script src="../script/traductorH3.js"></script>
 </body>
 </html>

@@ -62,8 +62,8 @@
     width: min(var(--anchoContenido), 92%);
     min-height: 60vh;
     margin: auto;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2.4rem;
     display: flex;
     align-items: center;
     justify-content: space-between;

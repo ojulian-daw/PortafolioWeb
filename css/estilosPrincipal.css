@@ -74,6 +74,22 @@ header{
 main{
     margin-top: 12px;
 }
+/* botón traducción */
+#btnTra, #btnTraP{
+    background-color: var(--fondoTarjeta);
+    border-radius: 8px;
+    border: none;
+    padding: 6px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: var(--enlaceLetra);
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+#btnTra:hover, #btnTraP:hover{
+    transform: scale(1.06);
+    background-color: rgba(24, 40, 100, 0.4);
+}
 /* zona footer */
 footer{
     font-size: var(--tamanoFooter);

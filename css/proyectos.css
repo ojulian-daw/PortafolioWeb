@@ -55,8 +55,28 @@ hr{
     width: 85%;
     margin: auto;
 }
+/* segundos proyectos */
+.infoProyectos2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 22px;
+}
+.infoProyectos2 div{
+    width: 500px;
+}
+.contenedorTexto{
+    padding: 12px;
+}
 @media (min-width: 701px){
     .infoProyectos p{
         margin-right: 40px;
+    }
+    .infoProyectos2{
+        margin-bottom: 44px;
+    }
+    .contenedorTexto{
+        padding: 22px;
     }
 }
