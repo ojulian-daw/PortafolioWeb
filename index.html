@@ -67,7 +67,6 @@
                     <li>WordPress</li>
                 </ul>
             </div>
-            <!-- futuro contenido visual -->
         </section>
         <section class="tecnologias">
             <div class="informacionTecnica">
@@ -79,21 +78,33 @@
                 </ul>
             </div>
         </section>
+        <section class="tecnologias">
+            <div class="informacionTecnica">
+                <p id="cTitle3">CONTACTO</p>
+                <ul>
+                    <li><a href="https://github.com/ojulian-daw" class="enlace enlaceExterno">GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/omar-julian-jover-79202543b" class="enlace enlaceExterno">Linkedin</a></li>
+                </ul>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="contenidoFooter">
-            <span>demo</span>
+            &copy; <span id="mostrarYear"></span>
         </div>
         <div class="contenidoFooter">
-            <span>demo</span>
+            <span>Mi portafolio personal | Omar Julian</span>
         </div>
         <div class="contenidoFooter">
-            <span>demo</span>
+            <span>Desarrollador web HTML, CSS, JavaScript y PHP</span>
         </div>
         <div class="contenidoFooter">
-            <span>demo</span>
+            <span>GitHub | Linkedin</span>
         </div>
     </footer>
     <script src="script/traductor.js"></script>
+    <script>
+        document.getElementById("mostrarYear").textContent=new Date().getFullYear();
+    </script>
 </body>
 </html>

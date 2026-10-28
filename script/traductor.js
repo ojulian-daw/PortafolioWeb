@@ -23,6 +23,7 @@ function espanolAingles() {
     document.getElementById("span1").textContent="View projects";
     document.getElementById("pTitle1").textContent="TECHNOLOGIES";
     document.getElementById("pTitle2").textContent="PROJECTS";
+    document.getElementById("cTitle3").textContent="CONTACT";
     document.getElementById("list1").textContent="Web Games (with Phaser 3)";
     document.getElementById("list2").textContent="Testing an expense manager using PHP and SQL";
     document.getElementById("list3").textContent="User manager test using PHP and SQL";
@@ -38,6 +39,7 @@ function inglesAespanol(){
     document.getElementById("span1").textContent="Ver proyectos";
     document.getElementById("pTitle1").textContent="TECNOLOGÍAS";
     document.getElementById("pTitle2").textContent="PROYECTOS";
+    document.getElementById("cTitle3").textContent="CONTACTO";
     document.getElementById("list1").textContent="Juegos web (con Phaser 3)";
     document.getElementById("list2").textContent="Prueba de un gestor de gastos usando PHP y SQL";
     document.getElementById("list3").textContent="Prueba de un gestor de usuarios usando PHP y SQL";

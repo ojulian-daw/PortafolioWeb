@@ -60,3 +60,17 @@ function inglesAespanol(){
     document.getElementById("usuText3").textContent="El usuario puede indicar el tipo, la localidad y añadir un texto descriptivo.";
     document.getElementById("usuText4").textContent="Como puedes observar en la imagen el usuario puede ver su perfil con claridad, editarlo para adaptarlo a sus necesidades y configurar la cuenta.";
 }
+
+// botón de volver arriba
+const btnArriba=document.getElementById("arriba");
+
+window.addEventListener("scroll", function(){
+    if (window.scrollY>250) btnArriba.style.display="block";
+    else btnArriba.style.display="none";
+});
+
+btnArriba.addEventListener("click", function(){
+    window.scrollTo({
+        top: 0, behavior: "smooth"
+    });
+});

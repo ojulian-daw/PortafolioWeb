@@ -11,10 +11,12 @@
 <body>
     <header>
         <div class="contenidoHeader">
-            <div class="zonaHeader">
-                <h1 id="h1Proj">Mi portafolio</h1>
-                <small id="smaProj">demo</small>
-            </div>
+            <a href="../index.html" class="volver">
+                <div class="zonaHeader">
+                    <h1 id="h1Proj">Mi portafolio</h1>
+                    <small id="smaProj">demo</small>
+                </div>
+            </a>
             <div class="zonaHeader">
                 <nav class="menuPrincipal">
                     <ul>
@@ -26,6 +28,7 @@
             </div>
         </div>
     </header>
+    <div id="arriba">&UpArrow;</div>
     <main class="rc">
         <section class="sectionProyectos">
             <h2 id="h2Proj">Juegos JavaScript con Phaser 3</h2>
@@ -148,7 +151,7 @@
     </main>
     <footer>
         <div class="contenidoFooter">
-            <span>demo</span>
+            &copy; <span id="mostrarYear"></span>
         </div>
         <div class="contenidoFooter">
             <span>demo</span>
@@ -161,5 +164,8 @@
         </div>
     </footer>
     <script src="../script/traductorH3.js"></script>
+    <script>
+        document.getElementById("mostrarYear").textContent=new Date().getFullYear();
+    </script>
 </body>
 </html>

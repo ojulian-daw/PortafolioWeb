@@ -60,14 +60,14 @@
 /* apartado de tecnologias */
 .tecnologias{
     width: min(var(--anchoContenido), 92%);
-    min-height: 60vh;
+    min-height: 40vh;
     margin: auto;
-    padding-top: 2rem;
-    padding-bottom: 2.4rem;
+    padding-top: 1.4rem;
+    padding-bottom: 1.8rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 4rem;
+    gap: 2rem;
 }
 .informacionTecnica > p{
     margin-bottom: var(--espaciado1);

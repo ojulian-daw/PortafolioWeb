@@ -58,6 +58,10 @@ header{
     justify-content: flex-end;
     font-size: 1.1rem;
 }
+.volver{
+    text-decoration: none;
+    color: inherit;
+}
 .enlace{
     color: rgb(230, 235, 255);
     padding: 0.4rem 0.6rem;
@@ -70,6 +74,11 @@ header{
 .enlace:hover, .enlace:focus-visible{
     text-shadow: 0 0 10px rgba(255,255,255,0.45);
     background: rgba(0, 0, 0, 0.18);
+}
+.enlaceExterno{
+    color: rgb(177, 199, 236);
+    text-decoration: underline;
+    cursor: pointer;
 }
 main{
     margin-top: 12px;

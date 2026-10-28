@@ -11,10 +11,12 @@
 <body>
     <header>
         <div class="contenidoHeader">
-            <div class="zonaHeader">
-                <h1 id="tituloH1P">Mi portafolio</h1>
-                <small id="smallHeaderP">Desarrollador web</small>
-            </div>
+            <a href="../index.html" class="volver">
+                <div class="zonaHeader">
+                    <h1 id="tituloH1P">Mi portafolio</h1>
+                    <small id="smallHeaderP">Desarrollador web</small>
+                </div>
+            </a>
             <div class="zonaHeader">
                 <nav class="menuPrincipal">
                     <ul>
@@ -95,7 +97,7 @@
     </main>
     <footer>
         <div class="contenidoFooter">
-            <span>demo</span>
+            &copy; <span id="mostrarYear"></span>
         </div>
         <div class="contenidoFooter">
             <span>demo</span>
@@ -108,5 +110,8 @@
         </div>
     </footer>
     <script src="../script/traductorP2.js"></script>
+    <script>
+        document.getElementById("mostrarYear").textContent=new Date().getFullYear();
+    </script>
 </body>
 </html>
